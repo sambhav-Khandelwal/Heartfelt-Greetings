@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sambhav-khandelwal.github.io/Heartfelt-Greetings/sitemap.xml

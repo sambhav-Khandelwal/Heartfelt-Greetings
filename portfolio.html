@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Heartfelt Greetings portfolio — real design work across e-cards, advertisements, catalogs, book covers, and more. Based in Ajmer, Rajasthan.">
+  <title>Portfolio — Heartfelt Greetings</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./pictures/logos/Celebration_Gems_and_Jewellery_Brand_Identity_Logo_Profile_Page.png">
+  <link rel="apple-touch-icon" href="./pictures/logos/Celebration_Gems_and_Jewellery_Brand_Identity_Logo_Profile_Page.png">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Portfolio — Heartfelt Greetings">
+  <meta property="og:description" content="Heartfelt Greetings — premium graphic design studio based in Ajmer, Rajasthan.">
+  <meta property="og:image" content="https://sambhav-khandelwal.github.io/Heartfelt-Greetings/pictures/ads/Reveur_Eyeliner_Product_Ad_You_Feel_You_See_Yellow_Creative.png">
+  <meta property="og:url" content="https://sambhav-khandelwal.github.io/Heartfelt-Greetings/portfolio.html">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/916350302697?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20your%20design%20services." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+</a>
+<!-- BACK TO TOP -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="18 15 12 9 6 15"></polyline>
+  </svg>
+</button>
+
+<!-- NAVBAR -->
+<nav class="site-nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-wordmark">Heartfelt Greetings</a>
+    <button class="nav-toggle" id="navToggle" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+
+<!-- PAGE HEADER -->
+<header class="page-header">
+  <div class="container">
+    <span class="section-label">Our Work</span>
+    <h1>Portfolio</h1>
+    <p>Real work, for real clients, across every occasion.</p>
+  </div>
+</header>
+
+<!-- FILTER BAR -->
+<section aria-label="Filter work by category">
+  <div class="container">
+    <div class="filter-bar" role="group" aria-label="Filter categories">
+      <button class="filter-pill active" data-filter="all">All</button>
+      <button class="filter-pill" data-filter="ecards">E-Cards</button>
+      <button class="filter-pill" data-filter="catalogs">Catalogs</button>
+      <button class="filter-pill" data-filter="bookcovers">Book Covers</button>
+      <button class="filter-pill" data-filter="ads">Advertisements</button>
+      <button class="filter-pill" data-filter="mockups">Mock-Ups</button>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO GRID -->
+<section class="section" style="padding-top: 0;" aria-label="Portfolio grid">
+  <div class="container">
+    <div class="portfolio-grid lightbox-group">
+
+      <!-- CATALOGS -->
+      <div class="portfolio-item" data-category="catalogs"
+           data-lightbox-src="./pictures/ebooks/Celebration_Jewellery_Ebook_About_Us_and_Gemstone_Overview_Page.png"
+           tabindex="0" role="button" aria-label="View Celebration Jewellery catalog">
+        <img src="./pictures/ebooks/Celebration_Jewellery_Ebook_About_Us_and_Gemstone_Overview_Page.png"
+             alt="Celebration Jewellery digital ebook — about us and gemstone overview" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Catalog Design</span>
+          <p class="project-title">Celebration Jewellery — Catalog</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="catalogs"
+           data-lightbox-src="./pictures/ebooks/Celebration_Jewellery_Ebook_Gemstone_Catalog_Page_Multi_Sapphire_Diffusion_Sapphire_Ruby_Emerald.png"
+           tabindex="0" role="button" aria-label="View Celebration Jewellery Gemstone Catalog page">
+        <img src="./pictures/ebooks/Celebration_Jewellery_Ebook_Gemstone_Catalog_Page_Multi_Sapphire_Diffusion_Sapphire_Ruby_Emerald.png"
+             alt="Celebration Jewellery ebook — gemstone catalog page with sapphire, ruby and emerald" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Catalog Design</span>
+          <p class="project-title">Celebration Jewellery — Gemstone Catalog</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="catalogs"
+           data-lightbox-src="./pictures/ebooks/Celebration_Jewellery_Ebook_Gemstone_Catalog_Page_Multicolor_Stone_Grid.png"
+           tabindex="0" role="button" aria-label="View multicolor gemstone grid catalog page">
+        <img src="./pictures/ebooks/Celebration_Jewellery_Ebook_Gemstone_Catalog_Page_Multicolor_Stone_Grid.png"
+             alt="Celebration Jewellery ebook — multicolor stone grid catalog page" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Catalog Design</span>
+          <p class="project-title">Celebration Jewellery — Stone Grid</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="catalogs"
+           data-lightbox-src="./pictures/ebooks/Celebration_Jewellery_Ebook_Gemstone_Catalog_Page_Natural_Purple_Stone_Collections.png"
+           tabindex="0" role="button" aria-label="View natural purple stone collection catalog page">
+        <img src="./pictures/ebooks/Celebration_Jewellery_Ebook_Gemstone_Catalog_Page_Natural_Purple_Stone_Collections.png"
+             alt="Celebration Jewellery ebook — natural purple stone collection catalog page" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Catalog Design</span>
+          <p class="project-title">Celebration Jewellery — Purple Stones</p>
+        </div>
+      </div>
+
+      <!-- BOOK COVERS -->
+      <div class="portfolio-item" data-category="bookcovers"
+           data-lightbox-src="./pictures/Book%20Covers/BC%201.png"
+           tabindex="0" role="button" aria-label="View book cover design 1">
+        <img src="./pictures/Book%20Covers/BC%201.png" alt="Book cover design 1" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Book Covers</span>
+          <p class="project-title">Book Cover Design</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="bookcovers"
+           data-lightbox-src="./pictures/Book%20Covers/BC%202.png"
+           tabindex="0" role="button" aria-label="View book cover design 2">
+        <img src="./pictures/Book%20Covers/BC%202.png" alt="Book cover design 2" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Book Covers</span>
+          <p class="project-title">Book Cover Design</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="bookcovers"
+           data-lightbox-src="./pictures/Book%20Covers/BC%203.png"
+           tabindex="0" role="button" aria-label="View book cover design 3">
+        <img src="./pictures/Book%20Covers/BC%203.png" alt="Book cover design 3" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Book Covers</span>
+          <p class="project-title">Book Cover Design</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="bookcovers"
+           data-lightbox-src="./pictures/Book%20Covers/BC%204.png"
+           tabindex="0" role="button" aria-label="View book cover design 4">
+        <img src="./pictures/Book%20Covers/BC%204.png" alt="Book cover design 4" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Book Covers</span>
+          <p class="project-title">Book Cover Design</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="bookcovers"
+           data-lightbox-src="./pictures/Book%20Covers/BC%205.png"
+           tabindex="0" role="button" aria-label="View book cover design 5">
+        <img src="./pictures/Book%20Covers/BC%205.png" alt="Book cover design 5" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Book Covers</span>
+          <p class="project-title">Book Cover Design</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="bookcovers"
+           data-lightbox-src="./pictures/Book%20Covers/BC%206.png"
+           tabindex="0" role="button" aria-label="View book cover design 6">
+        <img src="./pictures/Book%20Covers/BC%206.png" alt="Book cover design 6" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Book Covers</span>
+          <p class="project-title">Book Cover Design</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="bookcovers"
+           data-lightbox-src="./pictures/Book%20Covers/BC%207.png"
+           tabindex="0" role="button" aria-label="View book cover design 7">
+        <img src="./pictures/Book%20Covers/BC%207.png" alt="Book cover design 7" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Book Covers</span>
+          <p class="project-title">Book Cover Design</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="bookcovers"
+           data-lightbox-src="./pictures/Book%20Covers/BC%208.png"
+           tabindex="0" role="button" aria-label="View book cover design 8">
+        <img src="./pictures/Book%20Covers/BC%208.png" alt="Book cover design 8" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Book Covers</span>
+          <p class="project-title">Book Cover Design</p>
+        </div>
+      </div>
+
+      <!-- E-CARDS -->
+      <div class="portfolio-item" data-category="ecards"
+           data-lightbox-src="./pictures/ecards/Happy_Dhanteras_Festival_Greeting_Ecard.png"
+           tabindex="0" role="button" aria-label="View Dhanteras festival e-card">
+        <img src="./pictures/ecards/Happy_Dhanteras_Festival_Greeting_Ecard.png"
+             alt="Happy Dhanteras festival greeting digital e-card" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">E-Cards</span>
+          <p class="project-title">Dhanteras Festival Greeting</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ecards"
+           data-lightbox-src="./pictures/ecards/India_Wins_Champions_Celebration_Card.png"
+           tabindex="0" role="button" aria-label="View India Wins Champions celebration card">
+        <img src="./pictures/ecards/India_Wins_Champions_Celebration_Card.png"
+             alt="India Wins Champions celebration digital card design" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">E-Cards</span>
+          <p class="project-title">India Wins — Celebration Card</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ecards"
+           data-lightbox-src="./pictures/ecards/Pushkar_Night_Event_Promo_Ecard_Ajay_Hooda.png"
+           tabindex="0" role="button" aria-label="View Pushkar Night Event promo e-card">
+        <img src="./pictures/ecards/Pushkar_Night_Event_Promo_Ecard_Ajay_Hooda.png"
+             alt="Pushkar Night Event promotional e-card for Ajay Hooda" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">E-Cards</span>
+          <p class="project-title">Pushkar Night Event Promo</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ecards"
+           data-lightbox-src="./pictures/ecards/Abhishek_Sharma_Cricket_Stats_Performance_Card.png"
+           tabindex="0" role="button" aria-label="View cricket stats performance card">
+        <img src="./pictures/ecards/Abhishek_Sharma_Cricket_Stats_Performance_Card.png"
+             alt="Abhishek Sharma cricket stats performance card design" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">E-Cards</span>
+          <p class="project-title">Abhishek Sharma — Stats Card</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ecards"
+           data-lightbox-src="./pictures/ecards/India_vs_West_Indies_Winners_Match_Result_Card.png"
+           tabindex="0" role="button" aria-label="View India vs West Indies match result card">
+        <img src="./pictures/ecards/India_vs_West_Indies_Winners_Match_Result_Card.png"
+             alt="India vs West Indies winners match result card design" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">E-Cards</span>
+          <p class="project-title">India vs West Indies — Match Card</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ecards"
+           data-lightbox-src="./pictures/ecards/New_Zealand_vs_England_Match_Result_Card.png"
+           tabindex="0" role="button" aria-label="View New Zealand vs England match result card">
+        <img src="./pictures/ecards/New_Zealand_vs_England_Match_Result_Card.png"
+             alt="New Zealand vs England match result card design" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">E-Cards</span>
+          <p class="project-title">New Zealand vs England — Match Card</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ecards"
+           data-lightbox-src="./pictures/ecards/ODI_Most_Sixes_Leaderboard_Card.png"
+           tabindex="0" role="button" aria-label="View ODI Most Sixes leaderboard card">
+        <img src="./pictures/ecards/ODI_Most_Sixes_Leaderboard_Card.png"
+             alt="ODI Most Sixes leaderboard stats card design" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">E-Cards</span>
+          <p class="project-title">ODI Most Sixes Leaderboard</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ecards"
+           data-lightbox-src="./pictures/ecards/T20I_Most_Runs_Leaderboard_Card.png"
+           tabindex="0" role="button" aria-label="View T20I Most Runs leaderboard card">
+        <img src="./pictures/ecards/T20I_Most_Runs_Leaderboard_Card.png"
+             alt="T20I Most Runs leaderboard stats card design" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">E-Cards</span>
+          <p class="project-title">T20I Most Runs Leaderboard</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ecards"
+           data-lightbox-src="./pictures/ecards/Top_Run_Getters_Cricket_Stats_Card.png"
+           tabindex="0" role="button" aria-label="View Top Run Getters cricket stats card">
+        <img src="./pictures/ecards/Top_Run_Getters_Cricket_Stats_Card.png"
+             alt="Top Run Getters cricket statistics card design" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">E-Cards</span>
+          <p class="project-title">Top Run Getters — Stats Card</p>
+        </div>
+      </div>
+
+      <!-- ADS -->
+      <div class="portfolio-item" data-category="ads"
+           data-lightbox-src="./pictures/ads/Reveur_Eyeliner_Product_Ad_You_Feel_You_See_Yellow_Creative.png"
+           tabindex="0" role="button" aria-label="View Reveur eyeliner yellow creative ad">
+        <img src="./pictures/ads/Reveur_Eyeliner_Product_Ad_You_Feel_You_See_Yellow_Creative.png"
+             alt="Reveur eyeliner product advertisement — yellow creative layout" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Advertisements</span>
+          <p class="project-title">Reveur Eyeliner — Yellow Creative</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ads"
+           data-lightbox-src="./pictures/ads/Reveur_Fine_Line_Eyeliner_Product_Ad_Pink_Podium_Creative.png"
+           tabindex="0" role="button" aria-label="View Reveur fine line eyeliner pink podium ad">
+        <img src="./pictures/ads/Reveur_Fine_Line_Eyeliner_Product_Ad_Pink_Podium_Creative.png"
+             alt="Reveur fine line eyeliner product ad — pink podium creative" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Advertisements</span>
+          <p class="project-title">Reveur Fine Line — Pink Podium</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ads"
+           data-lightbox-src="./pictures/ads/Reveur_Highly_Pigmented_Liquid_Lipstick_Product_Ad.png"
+           tabindex="0" role="button" aria-label="View Reveur liquid lipstick product ad">
+        <img src="./pictures/ads/Reveur_Highly_Pigmented_Liquid_Lipstick_Product_Ad.png"
+             alt="Reveur highly pigmented liquid lipstick product advertisement" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Advertisements</span>
+          <p class="project-title">Reveur — Liquid Lipstick Ad</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ads"
+           data-lightbox-src="./pictures/ads/Reveur_Mascara_Bold_Naturally_Long_Lashes_Product_Ad.png"
+           tabindex="0" role="button" aria-label="View Reveur mascara bold lashes product ad">
+        <img src="./pictures/ads/Reveur_Mascara_Bold_Naturally_Long_Lashes_Product_Ad.png"
+             alt="Reveur mascara bold naturally long lashes product advertisement" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Advertisements</span>
+          <p class="project-title">Reveur — Mascara Product Ad</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ads"
+           data-lightbox-src="./pictures/ads/Skinroth_Jade_Roller_Natural_Glow_Promotional_Ad.png"
+           tabindex="0" role="button" aria-label="View Skinroth jade roller promotional ad">
+        <img src="./pictures/ads/Skinroth_Jade_Roller_Natural_Glow_Promotional_Ad.png"
+             alt="Skinroth jade roller natural glow promotional advertisement" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Advertisements</span>
+          <p class="project-title">Skinroth Jade Roller — Promo Ad</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ads"
+           data-lightbox-src="./pictures/ads/Skinroth_Jade_Roller_Storage_Box_Product_Ad.png"
+           tabindex="0" role="button" aria-label="View Skinroth jade roller storage box ad">
+        <img src="./pictures/ads/Skinroth_Jade_Roller_Storage_Box_Product_Ad.png"
+             alt="Skinroth jade roller storage box product advertisement" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Advertisements</span>
+          <p class="project-title">Skinroth — Storage Box Ad</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ads"
+           data-lightbox-src="./pictures/ads/LandSquire_Real_Estate_Lead_Generation_Promo_Ad.png"
+           tabindex="0" role="button" aria-label="View LandSquire real estate promo ad">
+        <img src="./pictures/ads/LandSquire_Real_Estate_Lead_Generation_Promo_Ad.png"
+             alt="LandSquire real estate lead generation promotional advertisement" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Advertisements</span>
+          <p class="project-title">LandSquire Real Estate — Promo Ad</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ads"
+           data-lightbox-src="./pictures/ads/Kitchli_Premium_Kitchen_Essentials_Storage_Products_Banner.png"
+           tabindex="0" role="button" aria-label="View Kitchli kitchen essentials banner">
+        <img src="./pictures/ads/Kitchli_Premium_Kitchen_Essentials_Storage_Products_Banner.png"
+             alt="Kitchli premium kitchen essentials storage products banner ad" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Advertisements</span>
+          <p class="project-title">Kitchli — Kitchen Essentials Banner</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ads"
+           data-lightbox-src="./pictures/ads/Xcelerate_Pre_Workout_Supplement_Ignite_Your_Power_Black_Creative.png"
+           tabindex="0" role="button" aria-label="View Xcelerate pre-workout supplement ad">
+        <img src="./pictures/ads/Xcelerate_Pre_Workout_Supplement_Ignite_Your_Power_Black_Creative.png"
+             alt="Xcelerate pre-workout supplement ignite your power black creative ad" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Advertisements</span>
+          <p class="project-title">Xcelerate Pre-Workout — Power Ad</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ads"
+           data-lightbox-src="./pictures/ads/YuvTrainings_Digital_Marketing_Career_Course_Ad_Dark_Theme.png"
+           tabindex="0" role="button" aria-label="View YuvTrainings digital marketing course ad">
+        <img src="./pictures/ads/YuvTrainings_Digital_Marketing_Career_Course_Ad_Dark_Theme.png"
+             alt="YuvTrainings digital marketing career course advertisement dark theme" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Advertisements</span>
+          <p class="project-title">YuvTrainings — Course Ad</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="ads"
+           data-lightbox-src="./pictures/ads/Hiring_Announcement_Recruitment_Poster_Blue_Illustration.png"
+           tabindex="0" role="button" aria-label="View hiring announcement recruitment poster">
+        <img src="./pictures/ads/Hiring_Announcement_Recruitment_Poster_Blue_Illustration.png"
+             alt="Hiring announcement recruitment poster with blue illustration" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Advertisements</span>
+          <p class="project-title">Hiring Announcement — Recruitment Poster</p>
+        </div>
+      </div>
+
+      <!-- MOCK UPS -->
+      <div class="portfolio-item" data-category="mockups"
+           data-lightbox-src="./pictures/1.jpg"
+           tabindex="0" role="button" aria-label="View brand mockup 1">
+        <img src="./pictures/1.jpg" alt="Brand design mockup presentation — sample 1" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Mock-Up</span>
+          <p class="project-title">Brand Identity Mock-Up</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="mockups"
+           data-lightbox-src="./pictures/2.jpg"
+           tabindex="0" role="button" aria-label="View brand mockup 2">
+        <img src="./pictures/2.jpg" alt="Brand design mockup presentation — sample 2" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Mock-Up</span>
+          <p class="project-title">Brand Identity Mock-Up</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="mockups"
+           data-lightbox-src="./pictures/3.jpg"
+           tabindex="0" role="button" aria-label="View brand mockup 3">
+        <img src="./pictures/3.jpg" alt="Brand design mockup presentation — sample 3" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Mock-Up</span>
+          <p class="project-title">Brand Identity Mock-Up</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="mockups"
+           data-lightbox-src="./pictures/4.jpg"
+           tabindex="0" role="button" aria-label="View brand mockup 4">
+        <img src="./pictures/4.jpg" alt="Brand design mockup presentation — sample 4" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Mock-Up</span>
+          <p class="project-title">Brand Identity Mock-Up</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="mockups"
+           data-lightbox-src="./pictures/5.jpg"
+           tabindex="0" role="button" aria-label="View brand mockup 5">
+        <img src="./pictures/5.jpg" alt="Brand design mockup presentation — sample 5" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Mock-Up</span>
+          <p class="project-title">Brand Identity Mock-Up</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="mockups"
+           data-lightbox-src="./pictures/6.jpg"
+           tabindex="0" role="button" aria-label="View brand mockup 6">
+        <img src="./pictures/6.jpg" alt="Brand design mockup presentation — sample 6" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Mock-Up</span>
+          <p class="project-title">Brand Identity Mock-Up</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="mockups"
+           data-lightbox-src="./pictures/7.jpg"
+           tabindex="0" role="button" aria-label="View brand mockup 7">
+        <img src="./pictures/7.jpg" alt="Brand design mockup presentation — sample 7" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Mock-Up</span>
+          <p class="project-title">Brand Identity Mock-Up</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="mockups"
+           data-lightbox-src="./pictures/8.jpg"
+           tabindex="0" role="button" aria-label="View brand mockup 8">
+        <img src="./pictures/8.jpg" alt="Brand design mockup presentation — sample 8" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">Mock-Up</span>
+          <p class="project-title">Brand Identity Mock-Up</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO E-CARDS -->
+<section class="video-section" aria-labelledby="video-heading">
+  <div class="container">
+    <span class="section-label">In Motion</span>
+    <h2 id="video-heading">Digital E-Cards &amp; Video Invitations</h2>
+    <p class="mt-16 mb-48" style="max-width: 560px;">Motion-crafted cards for weddings, celebrations, and every occasion worth marking.</p>
+    <div class="video-grid">
+      <div class="video-card">
+        <iframe
+          src="https://www.youtube.com/embed/6GqSVRJJt_0"
+          title="Heartfelt Greetings video e-card — celebration design"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+        <p class="video-caption">Celebration Video E-Card</p>
+      </div>
+      <div class="video-card">
+        <iframe
+          src="https://www.youtube.com/embed/4JjPe5_srW0"
+          title="Heartfelt Greetings video invitation design"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+        <p class="video-caption">Festive Video Invitation</p>
+      </div>
+      <div class="video-card">
+        <iframe
+          src="https://www.youtube.com/embed/Bb9qMjYbsL0"
+          title="Heartfelt Greetings animated e-card"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+        <p class="video-caption">Animated Greeting Card</p>
+      </div>
+      <div class="video-card">
+        <iframe
+          src="https://www.youtube.com/embed/zKRlxyKp75g"
+          title="Heartfelt Greetings digital invitation"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+        <p class="video-caption">Digital Occasion Invite</p>
+      </div>
+      <div class="video-card">
+        <iframe
+          src="https://www.youtube.com/embed/e52HrxZRSaY"
+          title="Heartfelt Greetings motion card design"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+        <p class="video-caption">Motion Card Design</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MMB GALLERY -->
+<section class="mmb-gallery-section" aria-labelledby="mmb-gallery-heading">
+  <div class="container">
+    <span class="section-label">Client Spotlight</span>
+    <h2 id="mmb-gallery-heading">Mahesh Mishtan Bhandar</h2>
+    <p class="mt-16 mb-48" style="max-width: 520px;">A long-standing creative partnership with Ajmer's most beloved sweets brand.</p>
+    <div class="mmb-gallery-grid lightbox-group">
+      <div class="portfolio-item" data-lightbox-src="./mmb-pictures/YOGA%20DAY%20MMB.jpg" tabindex="0" role="button" aria-label="MMB brand design 1">
+        <img src="./mmb-pictures/YOGA%20DAY%20MMB.jpg" alt="Mahesh Mishtan Bhandar brand collateral design — piece 1" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">MMB</span>
+          <p class="project-title">Brand Collateral</p>
+        </div>
+      </div>
+      <div class="portfolio-item" data-lightbox-src="./mmb-pictures/Sinjara%20MMB.jpg" tabindex="0" role="button" aria-label="MMB brand design 2">
+        <img src="./mmb-pictures/Sinjara%20MMB.jpg" alt="Mahesh Mishtan Bhandar brand collateral design — piece 2" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">MMB</span>
+          <p class="project-title">Packaging Design</p>
+        </div>
+      </div>
+      <div class="portfolio-item" data-lightbox-src="./mmb-pictures/Ram%20Navami.jpg" tabindex="0" role="button" aria-label="MMB brand design 3">
+        <img src="./mmb-pictures/Ram%20Navami.jpg" alt="Mahesh Mishtan Bhandar brand collateral design — piece 3" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">MMB</span>
+          <p class="project-title">In-Store Display</p>
+        </div>
+      </div>
+      <div class="portfolio-item" data-lightbox-src="./mmb-pictures/Mahaveer%20Jayanti%20MMB.jpg" tabindex="0" role="button" aria-label="MMB brand design 4">
+        <img src="./mmb-pictures/Mahaveer%20Jayanti%20MMB.jpg" alt="Mahesh Mishtan Bhandar brand collateral design — piece 4" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">MMB</span>
+          <p class="project-title">Social Media Creatives</p>
+        </div>
+      </div>
+      <div class="portfolio-item" data-lightbox-src="./mmb-pictures/Hindu%20New%20Year.jpg" tabindex="0" role="button" aria-label="MMB brand design 5">
+        <img src="./mmb-pictures/Hindu%20New%20Year.jpg" alt="Mahesh Mishtan Bhandar brand collateral design — piece 5" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">MMB</span>
+          <p class="project-title">Catalogue Design</p>
+        </div>
+      </div>
+      <div class="portfolio-item" data-lightbox-src="./mmb-pictures/Hanuman%20Jayanti%20MMB.jpg" tabindex="0" role="button" aria-label="MMB brand design 6">
+        <img src="./mmb-pictures/Hanuman%20Jayanti%20MMB.jpg" alt="Mahesh Mishtan Bhandar brand collateral design — piece 6" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">MMB</span>
+          <p class="project-title">Brand Identity</p>
+        </div>
+      </div>
+      <div class="portfolio-item" data-lightbox-src="./mmb-pictures/Gangaur%20MMB.jpg" tabindex="0" role="button" aria-label="MMB brand design 7">
+        <img src="./mmb-pictures/Gangaur%20MMB.jpg" alt="Mahesh Mishtan Bhandar brand collateral design — piece 7" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">MMB</span>
+          <p class="project-title">Brochure Design</p>
+        </div>
+      </div>
+      <div class="portfolio-item" data-lightbox-src="./mmb-pictures/fathers%20day%20MMB.jpg" tabindex="0" role="button" aria-label="MMB brand design 8">
+        <img src="./mmb-pictures/fathers%20day%20MMB.jpg" alt="Mahesh Mishtan Bhandar brand collateral design — piece 8" loading="lazy">
+        <div class="portfolio-overlay" aria-hidden="true">
+          <span class="category-tag">MMB</span>
+          <p class="project-title">Print Collateral</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6">
+        <span class="footer-wordmark">Heartfelt Greetings</span>
+        <p class="footer-tagline">Graphic design studio based in Ajmer, Rajasthan. Every occasion, beautifully designed.</p>
+      </div>
+      <div class="col-lg-2 col-md-6 offset-lg-2">
+        <p class="footer-heading">Pages</p>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <p class="footer-heading">Connect</p>
+        <div class="footer-social">
+          <a href="https://instagram.com/heartfelt_Greetings_" aria-label="Instagram" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+            </svg>
+          </a>
+          <a href="https://wa.me/916350302697" aria-label="WhatsApp" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+            </svg>
+          </a>
+        </div>
+        <p style="font-size: 13px; color: rgba(250,248,245,0.5);">
+          <a href="mailto:heartfeltgreetings.team@gmail.com" style="color: rgba(250,248,245,0.65);">heartfeltgreetings.team@gmail.com</a>
+        </p>
+      </div>
+    </div>
+    <hr class="footer-divider">
+    <p class="footer-copy">© 2025 Heartfelt Greetings. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox-overlay" id="lightboxOverlay" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">×</button>
+  <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">‹</button>
+  <img src="" alt="Portfolio item enlarged view" class="lightbox-img" id="lightboxImg">
+  <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">›</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
